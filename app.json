@@ -1,0 +1,54 @@
+{
+  "name": "YouTube Mp3",
+  "description": "Telegram's Best Smart Plugin YouTube Mp3 Downloader for group and Channel",
+  "logo": "https://telegra.ph/file/9314f0daa5f170ed32083.jpg",
+  "keywords": [
+    "telegram",
+    "best",
+    "youtube",
+    "MP3",
+    "downloader"
+  ],
+  "success_url": "https://t.me/DForDarkAngel",
+  "website": "https://github.com/Jijinr/YouTube-Mp3",
+  "repository": "https://github.com/Jijinr/YouTube-Mp3",
+  "env": {
+    "API_ID": {
+      "description": "Get this value from https://my.telegram.org or @UseTGXBot",
+      "value": ""
+    },
+    "API_HASH": {
+      "description": "Get this value from https://my.telegram.org or @UseTGXBot",
+      "value": ""
+    },
+    "BOT_TOKEN": {
+      "description": "Your bot token from @BotFather",
+      "value": ""
+    },
+    "AUTH_USER": {
+      "description": "Enter your telegram id",
+      "value": ""
+    },
+    "GROUP_ID": {
+      "description": "Enter Your Group Id must add -100",
+      "value": ""
+    },
+    "CHANNEL_FORWARD_TO": {
+      "description": "Enter Channel id Must add -100",
+      "required": false
+    }
+  },
+  "addons": [
+  ],
+  "buildpacks": [{
+    "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+  }, {
+    "url": "heroku/python"
+  }],
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "free"
+    }
+  }
+}
