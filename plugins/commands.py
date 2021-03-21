@@ -13,7 +13,7 @@ from config import Config
 async def command_start(_, message: Message):
     """/start introduction of the bot"""
     buttons = [[
-        InlineKeyboardButton('📜 Source Code', url='https://github.com/Jijinr/YouTube-Mp3')
+        InlineKeyboardButton('support group', url='https://t.me/n_a_c_bot_developers')
     ]]
     reply_markup = InlineKeyboardMarkup(buttons)
     await message.reply(
