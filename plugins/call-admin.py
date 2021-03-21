@@ -6,7 +6,7 @@ from pyrogram.types import Message
 from config import Config
 
 
-@Client.on_message(filters.command("admin", "@")
+@Client.on_message(filters.command("request", "#")
                    & filters.chat(Config.GROUP_ID)
                    & filters.incoming
                    & ~filters.edited)
