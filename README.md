@@ -1,10 +1,32 @@
-# tgbot
+![image](https://telegra.ph/file/e3491a7de8ce33dec0cc8.jpg)
+
+# YouTube Mp3 Bot
+
+_This is a music downloader bot for 
+members of the channel and group_
+
+### Pre Requisites 
+
+• _Your Bot Token From @BotFather_
+
+• _Your APP ID And API Harsh From [Telegram](http://www.my.telegram.org) or [@UseTGXBot](http://www.telegram.dog/UseTGXBot)_
+
+• _Your telegram id from [Rose Bot](https://t.me/MissRose_bot)_
+
+• _Your Group ID_
+
+• _Channel Id This is Not required_ 🤷
+
+### Deploy:
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Jijinr/YouTube-Mp3)
+
+## tgbot
 
 A Telegram bot made with [Pyrogram Smart Plugins](https://docs.pyrogram.org/topics/smart-plugins)
 
 ## Requirements
 
-- Python 3.6 or higher
+- Python 3.6 or higher (some plugins may require higher versions)
 - A [Telegram API key](//docs.pyrogram.org/intro/setup#api-keys)
 - A [Telegram bot token](//t.me/botfather)
 
